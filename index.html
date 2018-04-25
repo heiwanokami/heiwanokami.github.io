@@ -4,18 +4,13 @@
     <title>Test Page: Don't Panic</title>
     <meta charset="utf-8">
     <style media="screen">
-      div.bio-box {
-        border: 1px solid green;
-      }
+
       a {
         color: #f00;
       }
 
       #exec-bio {
         background-color: lightgrey;
-      }
-      .bio-box {
-        border: 1px solid black;
       }
       .bio-box p a {
         color: green;
@@ -26,8 +21,23 @@
       }
       .bio-copy a {
         color: green;
+        font-size: 1em;
       }
 
+      /*global stzles */
+
+      h2 {
+        font-size: 30px;
+      }
+
+/* BIO Styles*/
+.bio-box {
+  border: 1px solid black;
+  width: 50%;
+}
+.bio-wrapper {
+
+}
 
 
     </style>
@@ -46,6 +56,8 @@
       </li>
     </ul>
     <h2>I'm an h2</h2>
+    <div class="bio-wrapper">
+
     <div class="bio-box">
       <h3>Michael Hartl</h3>
             <a href="http://twitter.com/mhartl" class="social-link">here</a>
@@ -96,5 +108,6 @@
               The Future
             </p>
     </div>
+  </div>
   </body>
 </html>
